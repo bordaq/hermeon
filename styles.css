@@ -186,6 +186,7 @@ margin: 1em 0em 1em 15em;
     display: flex;
     justify-content: center;
     gap: 5em;
+    margin-bottom: 50px;
 }
 .filter{
     margin-top: 100px;
@@ -432,6 +433,52 @@ margin-bottom: 1em;
 .header-hamburger-menu:hover{
     background-color: #5e3a00;
 }
+.reviews-page{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 50px;
+
+}
+.reviews-page>h2{
+    margin-right: auto;
+}
+.reviews-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.review-card{
+    background-color: #bb8fce;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+}
+.review-card .person{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+font-weight: 500;
+}
+.review-card .person img{
+    width: 60px;
+}
+.review-card .stars{
+    display: flex;
+    gap: 7px;
+}
+.review-card .stars img{
+    width: 25px;
+    height: 25px;
+}
 /* Colors */
 .red{
     background-color: #f1948a;
@@ -509,6 +556,9 @@ margin-bottom: 1em;
 #contact{
     margin: auto;
     max-width: 85%;
+}
+.reviews-cards{
+    grid-template-columns: 1fr 1fr;
 }
 }
 
@@ -628,6 +678,9 @@ margin: 3px;
     margin-top: 2em;
     margin-bottom: 2em;
     border-radius: 20px;
+}
+.reviews-cards{
+    grid-template-columns: 1fr;
 }
 }
 
