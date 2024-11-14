@@ -512,9 +512,14 @@ font-weight: 500;
 }
 /* Tablets */
 @media only screen and (max-width: 1024px){
+
     body{
         width: 100%;
         background-color: aliceblue;
+    }
+    .page{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 .index-page{
     width: 100%;
@@ -561,9 +566,27 @@ font-weight: 500;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
+.products-page{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.map{
+    max-width: 100%;
+}
+.map iframe{
+    max-width: 100%;
+    height: auto;
+}
 }
 
-
+@media only screen and (max-width: 850px){
+    header nav{
+        display: none;  
+    }
+    .header-hamburger-menu{
+        display: block;
+    }
+}
 /* Mobiles */
 @media only screen and (max-width: 600px) {
 body{
