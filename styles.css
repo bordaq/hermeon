@@ -261,9 +261,10 @@ margin: 1em 0em 1em 15em;
 }
 .product-content h3{
     text-align: center;
+    margin: 0 8px;
 }
 .product-content img{
-    width: 150px;
+    height: 100px;
 }
 .product-footer{
     margin: 12px;
