@@ -11,7 +11,6 @@ fetch('https://fakestoreapi.com/products')
     data.forEach(product => {
         const a = document.createElement('a');
         a.classList.add('product-card');
-        a.href = ``;
         a.innerHTML = `
             <div class="product-content">
                 <h3>${truncateText(product.title, 40)}</h3> <!-- Trunca el título a 40 caracteres -->
