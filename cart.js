@@ -10,13 +10,22 @@ function updateCart(cart) {
 function updateCartCount() {
     const cart = getCart();
     const cartIcon = document.getElementById('cart');
-    const cartCount = cart.length;
+    let productsSum = 0;
+    cart.forEach((item)=> {
+        productsSum = productsSum + item.quantity * 1;
+    })
+    const cartCount = productsSum;
     cartIcon.innerHTML = `<img src="img/icons/cart-shopping.svg" alt=""> <div id="cart-count"><span>${cartCount}</span></div>`;
 }
 
 function addToCart(product) {
     const cart = getCart();
-    cart.push(product);
+    const existingProduct = cart.find((item) => item.title === product.title);
+    if (existingProduct) {
+        existingProduct.quantity = (existingProduct.quantity || 1) + 1;
+    } else {
+        cart.push({ ...product, quantity: 1 });
+    }
     updateCart(cart);
     updateCartCount();
 }

@@ -90,7 +90,6 @@ li{
     border-radius: 50%;
 }
 .cart-page{
-    width: 1200px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -101,11 +100,45 @@ li{
     margin-bottom: 50px;
 }
 .cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
     padding: 10px;
     padding-left: 20px;
+    padding-right: 80px;
     margin-top: 20px;
     background-color: white;
     border-radius: 20px;
+}
+#item-quantity{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#item-quantity p{
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+#item-quantity button{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    background-color: rgb(212, 129, 34);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#item-quantity button:hover{
+    background-color: rgb(172, 104, 26);
+}
+#item-quantity img {
+    height: 20px;
 }
 .cart-item img{
 height: 100px;
@@ -118,6 +151,7 @@ width: auto;
     margin-left: 10px;
 }
 #clear-cart{
+    font-size: large;
     padding: 10px;
     background-color: rgb(212, 129, 34);
     color: white;
@@ -126,6 +160,9 @@ width: auto;
 }
 #clear-cart:hover{
     background-color: rgb(172, 104, 26);
+}
+#total-price{
+    font-size: large;
 }
 .header-main li a{
     text-decoration: none;
@@ -285,6 +322,11 @@ margin: 1em 0em 1em 15em;
     gap: 20px;
 }
 .product-card{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
     background-color: white;
     width: 15em;
     height: 18em;
@@ -300,6 +342,7 @@ margin: 1em 0em 1em 15em;
     border: 2px solid #ddd;
 }
 .product-card .product-content img{
+    pointer-events: none;
     transition: transform 1.2s ease;
 }
 .product-card:hover .product-content img{
@@ -345,6 +388,7 @@ margin: 1em 0em 1em 15em;
     transition: background-color 0.3s ease;
 }
 .product-cart img{
+    pointer-events: none;
     width: 2.5em;
 }
 
