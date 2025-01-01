@@ -1,0 +1,256 @@
+[
+      {
+        "id": 1,
+        "title": "Placa de video RTX 4060 MSI",
+        "price": 400,
+        "image": "img/products/RTX-4060-msi.jpg",
+        "category": "gpu"
+      },
+      {
+        "id": 2,
+        "title": "Placa de Video MSI GeForce RTX 4070 Ti",
+        "price": 1100,
+        "image": "img/products/4070.jpg",
+        "category": "gpu"
+      },
+      {
+        "id": 3,
+        "title": "Placa de Video ASUS GeForce GT 730 2GB",
+        "price": 89,
+        "image": "img/products/730.jpg",
+        "category": "gpu"
+      },
+      {
+        "id": 4,
+        "title": "Placa de Video Asrock Radeon RX 7700 XT 12GB GDDR6 CHALLENGER OC",
+        "price": 450,
+        "image": "img/products/RX_7700.jpg",
+        "category": "gpu"
+      },
+
+      {
+        "id": 5,
+        "title": "Memoria Team DDR5 32GB (2x16GB) 6400MHz",
+        "price": 120,
+        "image": "img/products/tforce_32gb.jpg",
+        "category": "ram"
+      },
+      {
+        "id": 6,
+        "title": "Memoria GeiL DDR4 16GB (2x8GB) 3000MHz",
+        "price": 35,
+        "image": "img/products/geil_16gb.jpg",
+        "category": "ram"
+      },
+      {
+        "id": 7,
+        "title": "Memoria Adata DDR4 8GB 3200MHz",
+        "price": 20,
+        "image": "img/products/adata_8gb.jpg",
+        "category": "ram"
+      },
+
+      {
+        "id": 8,
+        "title": "Procesador AMD Ryzen 7 5800X 4.7GHz",
+        "price": 559,
+        "image": "img/products/Procesador_AMD_Ryzen_7_5800X.jpg",
+        "category": "cpu"
+      },
+      {
+        "id": 9,
+        "title": "Procesador AMD Ryzen 9 7950X",
+        "price": 650,
+        "image": "img/products/AMD_Ryzen_9_7950X.jpg",
+        "category": "cpu"
+      },
+      {
+        "id": 10,
+        "title": "Procesador Intel Core i9 14900",
+        "price": 720,
+        "image": "img/products/Intel_Core_i9.jpg",
+        "category": "cpu"
+      },
+      {
+        "id": 11,
+        "title": "Procesador Intel Core Ultra 5 245KF",
+        "price": 310,
+        "image": "img/products/Procesador_Intel_Core_Ultra.jpg",
+        "category": "cpu"
+      },
+
+      {
+        "id": 12,
+        "title": "Mother ASUS ROG STRIX B760",
+        "price": 290,
+        "image": "img/products/Mother_ASUS_ROG_STRIX_B760.jpg",
+        "category": "mother"
+      },
+      {
+        "id": 13,
+        "title": "Mother Asrock B760",
+        "price": 220,
+        "image": "img/products/Mother_Asrock_B760I.jpg",
+        "category": "mother"
+      },
+      {
+        "id": 14,
+        "title": "Mother ASUS TUF B650M-PLUS WIFI",
+        "price": 230,
+        "image": "img/products/Mother_ASUS_TUF_B650M.jpg",
+        "category": "mother"
+      },
+      {
+        "id": 15,
+        "title": "Mother ASUS ROG STRIX X870E-E",
+        "price": 590,
+        "image": "img/products/Mother_ASUS_ROG_STRIX_X870E-E.jpg",
+        "category": "mother"
+      },
+
+      {
+        "id": 16,
+        "title": "Disco Solido SSD M.2 ADATA 4TB Legend 960 MAX 7400MB/s ",
+        "price": 369,
+        "image": "img/products/ADATA_4TB_Legend_960_MAX_7400MB.jpg",
+        "category": "storage"
+      },
+      {
+        "id": 17,
+        "title": "Disco Solido SSD M.2 WD 2TB Black SN850X 7300MB/s",
+        "price": 179,
+        "image": "img/products/SSD_M.2_WD_2TB_Black_SN850X_7300MB.jpg",
+        "category": "storage"
+      },
+      {
+        "id": 18,
+        "title": "Disco Solido SSD WD 1TB Green 545MB/s",
+        "price": 52,
+        "image": "img/products/SSD_WD_1TB_Green_545MB.jpg",
+        "category": "storage"
+      },
+      {
+        "id": 19,
+        "title": "Disco Solido SSD Adata 240GB SU650SS 520MB/s",
+        "price": 18,
+        "image": "img/products/Disco_Solido_SSD_Adata_240GB.jpg",
+        "category": "storage"
+      },
+
+      {
+        "id": 20,
+        "title": "Cooler Fan ID-Cooling 120mm",
+        "price": 54,
+        "image": "img/products/Cooling_120mm_AF-127-ARGB.jpg",
+        "category": "cooler"
+      },
+      {
+        "id": 21,
+        "title": "Cooler Fan ID-Cooling 120mm",
+        "price": 9,
+        "image": "img/products/Cooler_Fan_ID-Cooling_120mm.jpg",
+        "category": "cooler"
+      },
+      {
+        "id": 20,
+        "title": "Pasta Termica Corsair XTM50 de alto rendimiento",
+        "price": 14,
+        "image": "img/products/Pasta_Termica_Corsair_XTM50.jpg",
+        "category": "cooler"
+      },
+      {
+        "id": 20,
+        "title": "Cooler CPU ASUS ROG RYUO 3 360 White Edition",
+        "price": 290,
+        "image": "img/products/Cooler_CPU_ASUS_ROG_RYUO.jpg",
+        "category": "cooler"
+      },
+
+      {
+        "id": 21,
+        "title": "Gabinete Cooler Master Masterbox NR200P White Mini ITX ",
+        "price": 110,
+        "image": "img/products/Gabinete_Cooler_Master_Masterbox.jpg",
+        "category": "case"
+      },
+      {
+        "id": 22,
+        "title": "Gabinete ASUS ProArt PA602 Professional Mesh Vidrio Templado",
+        "price": 320,
+        "image": "img/products/Professional_Mesh_Vidrio_Templado.jpg",
+        "category": "case"
+      },
+      {
+        "id": 23,
+        "title": "Gabinete Corsair 2500X TG White Dual Chamber M-ATX",
+        "price": 160,
+        "image": "img/products/Gabinete_Corsair_2500X_TG.jpg",
+        "category": "case"
+      },
+      {
+        "id": 24,
+        "title": "Gabinete Antec C5 ARGB Black 7x120mm ARGB",
+        "price": 160,
+        "image": "img/products/ARGB_Fans_Vidrio_Templado_270.jpg",
+        "category": "case"
+      },
+
+      {
+        "id": 25,
+        "title": "Auriculares Redragon Lamia H320 RGB 7.1 Black",
+        "price": 55,
+        "image": "img/products/Auriculares_Redragon_Lamia_H320.jpg",
+        "category": "audio"
+      },
+      {
+        "id": 26,
+        "title": "Auriculares Corsair HS65 White Surround 7.1",
+        "price": 99,
+        "image": "img/products/Auriculares_Corsair_HS65.jpg",
+        "category": "audio"
+      },
+      {
+        "id": 27,
+        "title": "Auriculares Cougar Phontum Pro Prix 7.1",
+        "price": 105,
+        "image": "img/products/Cougar_Phontum_Pro_Prix_7.jpg",
+        "category": "audio"
+      },
+      {
+        "id": 28,
+        "title": "Auriculares Redragon Ire H848 Ultra light",
+        "price": 42,
+        "image": "img/products/H848_Ultra_light_Wireless.jpg",
+        "category": "audio"
+      },
+
+      {
+        "id": 29,
+        "title": "Teclado Redragon Mitra K551 Mechanical",
+        "price": 45,
+        "image": "img/products/K551_Mechanical.jpg",
+        "category": "keyboards"
+      },
+      {
+        "id": 30,
+        "title": "Teclado Mecanico Logitech G815 RGB",
+        "price": 145,
+        "image": "img/products/Logitech_G815_RGB.jpg",
+        "category": "keyboards"
+      },
+      {
+        "id": 31,
+        "title": "Teclado Mecanico Logitech G513 Carbon",
+        "price": 115,
+        "image": "img/products/Logitech_G513.jpg",
+        "category": "keyboards"
+      },
+      {
+        "id": 32,
+        "title": "Teclado Mecanico Logitech Aurora G713 White",
+        "price": 150,
+        "image": "img/products/Logitech_Aurora_G713.jpg",
+        "category": "keyboards"
+      }
+    ]
+  

@@ -1,4 +1,4 @@
-const productsCards = document.getElementById('products-container');
+const productsCards = document.getElementById('cybermonday-cards-index');
 
 // Función para truncar texto
 function truncateText(text, maxLength) {
@@ -8,7 +8,10 @@ function truncateText(text, maxLength) {
 fetch('products.json')
 .then(response => response.json())
 .then(data => {
-    data.forEach(product => {
+    const products = Object.values(data);
+    const randomItems = products.sort(() => Math.random() - 0.5).slice(0, 4);
+    console.log(randomItems);
+    randomItems.forEach(product => {
         const a = document.createElement('a');
         a.classList.add('product-card');
         a.innerHTML = `
