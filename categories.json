@@ -1,0 +1,48 @@
+[
+    {
+        "id": "gpu",
+        "title": "Placas de Video",
+        "image": "img/icons/categories/gpu.png"
+    },
+    {
+        "id": "ram",
+        "title": "Tarjetas RAM",
+        "image": "img/icons/categories/ram.png"
+    },
+    {
+        "id": "cpu",
+        "title": "Procesadores",
+        "image": "img/icons/categories/cpu.png"
+    },
+    {
+        "id": "mother",
+        "title": "Motherboards",
+        "image": "img/icons/categories/mother.png"
+    },
+    {
+        "id": "storage",
+        "title": "Almacenamiento",
+        "image": "img/icons/categories/storage.png"
+    },
+    {
+        "id": "cooler",
+        "title": "Refrigeración",
+        "image": "img/icons/categories/cooler.png"
+    },
+    {
+        "id": "case",
+        "title": "Gabinetes",
+        "image": "img/icons/categories/case.png"
+    },
+    {
+        "id": "audio",
+        "title": "Auriculares",
+        "image": "img/icons/categories/headphone.png"
+    },
+    {
+        "id": "keyboards",
+        "title": "Teclados",
+        "image": "img/icons/categories/keyboard.png"
+    }
+    
+]

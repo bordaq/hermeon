@@ -1,4 +1,5 @@
 const productsCards = document.getElementById('cybermonday-cards-index');
+const categoriesCards = document.getElementById('categories-index-cards');
 
 // Función para truncar texto
 function truncateText(text, maxLength) {
@@ -30,3 +31,37 @@ fetch('products.json')
     });
 })
 .catch(error => console.log(error));
+
+//Categorías
+fetch('categories.json')
+.then(response => response.json())
+.then(data => {
+    const categories = Object.values(data);
+    categories.forEach(category => {
+        const a = document.createElement('a');
+        a.classList.add('categorie-card');
+        a.classList.add(ColorsBucle());
+        a.setAttribute('href', `products.html?category=${category.id}`);
+        a.innerHTML = `
+            <div class="categorie-content">
+                        <h3>${category.title}</h3>
+                        <img src="${category.image}" alt="">
+                    </div>
+        `;
+        categoriesCards.appendChild(a);
+    });
+})
+.catch(error => console.log(error));
+const colors = ['red', 'purple', 'cyan', 'green', 'yellow'];
+function RandomColor() {
+    return colors[Math.floor(Math.random() * colors.length)];
+}
+let colorNumber = 0;
+function ColorsBucle() {
+if (colorNumber === colors.length) {
+colorNumber = 0;
+}
+let colorNow = colors[colorNumber];
+colorNumber++;
+return colorNow;
+}

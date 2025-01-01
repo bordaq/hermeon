@@ -341,7 +341,23 @@ input[type="radio"]:checked + label {
     border-radius: 10px;
     color: white;
   }
-
+#remove-filters{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+#remove-filters:hover{
+    background-color: rgb(172, 104, 26);
+}
+#remove-filters img{
+    width: 20px;
+    height: 20px;
+}
 /* Products cards */
 .products-cards{
     margin: 20px;
