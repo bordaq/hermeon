@@ -1,3 +1,4 @@
+const clearCartButton = document.getElementById('clear-cart');
 function displayCart() {
     const cart = getCart();
     const cartList = document.getElementById('cart-list');
@@ -27,13 +28,11 @@ function displayCart() {
     totalPage.innerHTML = `${calculateTotal() === 0 ? "Carrito vacío! Agrega productos para continuar con la compra." : `Total: $${calculateTotal()}`}`;
 }
 function removeItem(id) {
-    console.log(id);
     const cart = getCart();
     cart[id].quantity = cart[id].quantity - 1;
     if (cart[id].quantity <= 0) {
         cart.splice(id, 1);
     }
-    console.log(cart);
     updateCart(cart);
     displayCart();
     updateCartCount();
@@ -59,6 +58,11 @@ function calculateTotal() {
     cart.forEach(product => {
         total += product.price * product.quantity;
     });
+    if (total === 0) {
+        clearCartButton.classList.add('hidden');
+    }else{
+        clearCartButton.classList.remove('hidden');
+    }
     return total;
 }
 const total = calculateTotal();
