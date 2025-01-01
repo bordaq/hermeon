@@ -356,7 +356,7 @@ margin: 1em 0em 1em 15em;
 }
 .hidden{
     display: none;
-}@
+}
 .product-card:hover{
     text-decoration: none;
     transform: translateY(-10px);
