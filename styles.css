@@ -314,6 +314,7 @@ margin: 1em 0em 1em 15em;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .filter form{
     height:15em;
     display: flex;
@@ -330,6 +331,16 @@ margin: 1em 0em 1em 15em;
     border: solid 1px black;
     border-radius: 20px;
 }
+.active label{
+    background-color: rgb(212, 129, 34);
+}
+
+input[type="radio"]:checked + label {
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+  }
 
 /* Products cards */
 .products-cards{
